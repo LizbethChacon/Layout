@@ -1,15 +1,16 @@
-/*{outline: 1px solid rgba(255,0,0,0.4);}*/
+/*{outline: 1px solid rgba(255,0,0,0.2);}*/
 
 .container{
-	width: 90%;
+	width: 70%;
 	margin: 0 auto;
+	text-align: center;
 }
 #logo{
 	width: 100%;
 	margin-bottom: 10px;
 }
 .logo{
-	width: 100%;
+	max-width: 100%;
 	margin-bottom: 30px;
 }
 #navigation{
@@ -33,7 +34,9 @@
 .nav:last-child{
 	border-right: none;
 }
-
+a{
+	text-decoration: none;
+}
 #navigation p{ 
 	font-family: Times;
 	font-weight: bold;
@@ -49,7 +52,7 @@
 	margin-top: 30px;
 }
 #description{
-	margin: 55px 130px 55px; 
+	margin: 55px 60px 55px; 
 } 
 #description p{
 	font-family: Times;
@@ -61,30 +64,35 @@
 	margin-bottom: 30px;
 	text-align: center;
 }
-hr{
+hr {
 	border: 2px solid #B2B1B1;
  	margin: 0 auto;
  	width: 80px;
 }
 #coders{
 	width: 100%;
+	text-align: left;
 }
+
 h2{ 
-margin-left: 50px;
 margin-top: 50px;
 }
+
 .raya{
  	border:2px solid black;
- 	margin-top: 20px;
- 	margin-left: 50px;
+ 	margin-top: 10px;
  	width: 80px;
+ 	text-align: ;
+}
+.coders{
+	padding: 0;
 }
 .foto img { 
-	width: 260px;
+	width: 100%;
 	height: 260px;
 }
 .foto {
-	width: 260px;
+	width: 26%;
 	height: 260px;
 	position: relative;
 	display: inline-block;
@@ -93,7 +101,8 @@ margin-top: 50px;
 }
 #nombre {
 	position: absolute;
-	top: 220px;
-	left: 130px;
-	color: #06C603;
+	padding: 0;
+	bottom: 0;
+	right: 10px;
+	color: #FFFFFF;
 }
